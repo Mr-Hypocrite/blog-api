@@ -26,7 +26,7 @@ mongoose.connection.on("connected", () => {
 });
 
 const corsOptions = {
-  credentials: true,
+  origin: "http://localhost:3000",
 };
 
 //Middleware
