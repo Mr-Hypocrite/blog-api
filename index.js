@@ -56,5 +56,5 @@ app.get("/", (req, res) => {
 
 app.listen(process.env.PORT || "5000", () => {
   connect();
-  console.log(`Backend running on PORT: 5000`);
+  console.log(`Backend running on PORT: ${process.env.PORT}`);
 });
